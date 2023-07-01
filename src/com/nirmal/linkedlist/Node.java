@@ -1,2 +1,10 @@
-package com.nirmal.linkedlist;public class Node {
+package com.nirmal.linkedlist;
+
+public class Node <T>{
+    T data;
+    Node<T> next;
+
+    public Node(T data) {
+        this.data = data;
+    }
 }
